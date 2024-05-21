@@ -1,0 +1,28 @@
+﻿@model Team
+
+<div class="container">
+    <form asp-action="Create" enctype="multipart/form-data">
+        <div class="form-group">
+            <label>FullName</label>
+            <input asp-for="FullName" class="form-control" placeholder="Enter FullName">
+        </div>
+        <div class="form-group">
+            <label>Position</label>
+            <input asp-for="Position" class="form-control" placeholder="Enter Position">
+        </div>
+
+        <div class="form-group">
+            <label>Description</label>
+            <input asp-for="Description" class="form-control" placeholder="Enter Description">
+        </div>
+
+        <div class="form-group">
+            <label>Photo</label>
+            <input asp-for="ImgFile" class="form-control" placeholder="Enter Photo" accept=".jpg , .png , .jpeg">
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+</div>

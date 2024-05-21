@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lumia-Project.props" />
+</Project>
